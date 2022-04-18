@@ -16,6 +16,7 @@
 }
 
 body{
+    /*margin-top: 150px;*/
     font-family: var(--font-open-sans);
 }
 
@@ -33,13 +34,16 @@ header{
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: contain;
-    height: 519px;
+    height: 850px;
 }
 
 .navigation{
+    position: sticky;
+    top: 0;
     height: 70px;
     width: 100%;
-    box-shadow: 0px 2px 5px var(--color-grey);
+    background-color: var(--color-white);
+    box-shadow: 0 2px 5px var(--color-grey);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -54,10 +58,8 @@ header{
 
 .menu--item {
     display: inline-block;
-    /*margin-left: 95px;*/
     text-transform: uppercase;
     font-size: calc(1rem - 5px);
-    color: var(--color-light-grey);
     letter-spacing: 2px;
 }
 
@@ -68,10 +70,43 @@ header{
     width: 90px;
     justify-content: center;
     align-items: center;
+    color: var(--color-grey);
+    font-weight: bold;
     border-bottom: 2px solid var(--color-white);
 }
 
-.menu--item--link:hover{
-    font-weight: bold;
+.menu--item--link:hover {
+    color: var(--color-black);
     border-bottom: 2px solid var(--color-primary);
+}
+
+.main{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.main--title{
+    margin-top: 100px;
+    font-size: calc(3rem + 1px);
+    text-align: center;
+}
+
+.main--page{
+    margin-top: 30px;
+    text-align: center;
+}
+
+.main--link{
+    display: block;
+    padding: 28px 180px;
+    border-radius: 40px;
+    margin: 40px auto;
+    color: var(--color-white);
+    font-weight: bold;
+    background-color: var(--color-primary);
+}
+.platforms{
+    height: 500px;
+    width: 100%;
 }

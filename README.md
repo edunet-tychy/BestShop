@@ -6,4 +6,5 @@ The website consists of parts:
 - benefits,
 - price list,
 - contact.
+
 Project made as part of the workshop.

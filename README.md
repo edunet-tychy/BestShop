@@ -7,4 +7,4 @@ The website consists of parts:
 - price list,
 - contact.
 
-Project made as part of the workshop.
+The project was made during the workshop.

@@ -453,3 +453,55 @@ header{
 .pricing--boxes .pricing--boxes-item:nth-child(3) .pricing--boxes-item--link{
     background-color: var(--color-green);
 }
+
+/* Contact */
+.contact{
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    border: 1px dotted red;
+}
+
+.contact--info{
+    border: 1px dotted red;
+    width: 500px;
+    height: 200px;
+}
+
+.contact-info-title{
+
+}
+
+.contact--info-text{
+
+}
+
+.contact--info-phone{
+
+}
+
+.contact--form{
+    border: 1px dotted red;
+    width: 40%;
+    height: 200px;
+}
+
+.contact--form--label{
+
+}
+
+.contact--form--label--input{
+
+}
+
+.contact--form--check{
+
+}
+
+.contact--form--span{
+
+}
+
+.contact--form-btn{
+
+}

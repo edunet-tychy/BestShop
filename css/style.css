@@ -345,34 +345,111 @@ header{
 /* Pricing */
 .pricing{
     width: 100%;
-    height: 1300px;
-    border: 3px dotted red;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
 }
 
 .pricing--title{
-
+    margin-top: 50px;
+    font-size: calc(2rem + 2px);
+    text-align: center;
 }
 
 .pricing--boxes{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
 
+.pricing--boxes-item span{
+    margin-top: 20px;
+    display: inline-block;
+    font-size: calc(1rem - 4px);
+    font-weight: bold;
 }
 
 .pricing--boxes-item{
-
+    margin-top: 50px;
+    width: 372px;
+    height: 461px;
+    border-radius: 15px;
+    text-align: center;
+    position: relative;
 }
 
 .pricing--boxes-item--title{
-
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 .pricing--boxes-item--payment{
-
+    margin-top: 30px;
+    font-family: var(--font-open-sans);
+    font-weight: lighter;
+    font-size: calc(3rem - 2px);
 }
 
 .pricing--boxes-item--payment--options{
+    margin-top: 60px;
+    font-size: 14px;
+    font-family: var(--font-open-sans);
+}
 
+.pricing--boxes .pricing--boxes-item:nth-child(1) .pricing--boxes-item--payment{
+    color: var(--color-redish);
+}
+
+.pricing--boxes .pricing--boxes-item:nth-child(2) .pricing--boxes-item--payment{
+    color: var(--color-primary);
+}
+
+.pricing--boxes .pricing--boxes-item:nth-child(3) .pricing--boxes-item--payment{
+    color: var(--color-green);
 }
 
 .pricing--boxes-item--payment--option{
+    margin-top: 20px;
+}
 
+.pricing--boxes-item--payment--option img{
+    margin-right: 5px;
+}
+
+.pricing--boxes-item--link{
+    position: absolute;
+    top: 430px;
+    left: 110px;
+    width: 150px;
+    height: 50px;
+    border-radius: 30px;
+    color: var(--color-white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pricing--boxes .pricing--boxes-item:nth-child(1){
+    border: 1px solid var(--color-redish);
+}
+
+.pricing--boxes .pricing--boxes-item:nth-child(2){
+    border: 1px solid var(--color-primary);
+}
+
+.pricing--boxes .pricing--boxes-item:nth-child(3){
+    border: 1px solid var(--color-green);
+}
+
+.pricing--boxes .pricing--boxes-item:nth-child(1) .pricing--boxes-item--link{
+    background-color: var(--color-redish);
+}
+
+.pricing--boxes .pricing--boxes-item:nth-child(2) .pricing--boxes-item--link{
+    background-color: var(--color-primary);
+}
+
+.pricing--boxes .pricing--boxes-item:nth-child(3) .pricing--boxes-item--link{
+    background-color: var(--color-green);
 }

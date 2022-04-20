@@ -113,6 +113,7 @@ header{
     color: var(--color-white);
     font-weight: bold;
     background-color: var(--color-primary);
+    box-shadow: 5px 10px 14px #07ACE629;
 }
 
 /* Platforms*/
@@ -334,6 +335,7 @@ header{
     border: 0;
     width: 300px;
     height: 4px;
+
 }
 
 .boxes--page .boxes--page--items:nth-child(3) hr{
@@ -346,7 +348,6 @@ header{
 /* Pricing */
 .pricing{
     width: 100%;
-    height: 700px;
     display: flex;
     flex-direction: column;
 }
@@ -361,6 +362,7 @@ header{
     width: 100%;
     display: flex;
     justify-content: space-around;
+    align-items: flex-end;
 }
 
 .pricing--boxes-item span{
@@ -400,6 +402,12 @@ header{
 
 .pricing--boxes .pricing--boxes-item:nth-child(1) .pricing--boxes-item--payment{
     color: var(--color-redish);
+}
+
+.pricing--boxes .pricing--boxes-item:nth-child(2){
+    width: 390px;
+    height: 480px;
+    box-shadow: 5px 10px 27px #07ACE629;
 }
 
 .pricing--boxes .pricing--boxes-item:nth-child(2) .pricing--boxes-item--payment{
@@ -449,6 +457,9 @@ header{
 
 .pricing--boxes .pricing--boxes-item:nth-child(2) .pricing--boxes-item--link{
     background-color: var(--color-primary);
+    top: 449px;
+    left: 120px;
+/*    */
 }
 
 .pricing--boxes .pricing--boxes-item:nth-child(3) .pricing--boxes-item--link{
@@ -457,10 +468,10 @@ header{
 
 /* Contact */
 .contact{
+    margin-top: 200px;
     display: flex;
     justify-content: center;
     height: 350px;
-    margin-bottom: 50px;
 }
 
 .contact--info{
@@ -563,12 +574,16 @@ header{
     font-family: var(--font-open-sans);
     font-size: calc(1rem - 3px);
     font-weight: bold;
+    box-shadow: 5px 10px 14px #07ACE629;
 }
 
+/* Footer */
 .section--footer{
+    margin-top: 50px;
     width: 100%;
     height: 80px;
     background-color: var(--color-light-grey);
+    box-shadow: 0px -5px 40px #00000029;
 
 }
 
@@ -588,6 +603,7 @@ header{
     margin-top: 10px;
     font-family: var(--font-open-sans);
     font-size: calc(1rem - 5px);
+    color: var(--color-grey)
 }
 
 .footer--media--img{

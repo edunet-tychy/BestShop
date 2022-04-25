@@ -80,7 +80,7 @@ a{
 
 /* Header */
 header{
-    background-image: url("../assets/Background.png");
+    background-image: url("../assets/background.png");
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: contain;
@@ -171,7 +171,7 @@ header{
 .platforms__item:nth-child(1) span::after{
     content: "";
     display: block;
-    background: url("../assets/Person.svg")  +30px center no-repeat;
+    background: url("../assets/person.svg")  +30px center no-repeat;
     width: 150%;
     height: 100%;
     margin-right: 20px;
@@ -180,7 +180,7 @@ header{
 .platforms__item:nth-child(2) span::after{
     content: "";
     display: block;
-    background: url("../assets/Eye.svg")  +30px center no-repeat;
+    background: url("../assets/eye.svg")  +30px center no-repeat;
     width: 150%;
     height: 100%;
     margin-right: 20px;
@@ -189,7 +189,7 @@ header{
 .platforms__item:nth-child(3) span::after{
     content: "";
     display: block;
-    background: url("../assets/Catalog.svg") +30px center no-repeat;
+    background: url("../assets/catalog.svg") +30px center no-repeat;
     width: 150%;
     height: 100%;
     margin-right: 20px;
@@ -544,7 +544,7 @@ header{
 
 .contact__checkbox:checked::after{
     content: "";
-    background-image: url("../assets/Checkmark.svg");
+    background-image: url("../assets/checkmark.svg");
     background-position: center;
     background-repeat: no-repeat;
     width: 24px;
